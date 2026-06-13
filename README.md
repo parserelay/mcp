@@ -7,10 +7,10 @@ fields. Same contract as the REST API and the `<DeadSimpleMicroScanner>` compone
 
 ## The `scan` tool
 
-Input mirrors the sync [`ScanRequest`](../core/src/index.ts) — `image` (required), plus
+Input mirrors the sync [`ScanRequest`](https://github.com/parserelay/core) — `image` (required), plus
 `schema`, `doc_type`, `engine`, `ocr`, `dry_run`, `model`, `model_key`. (`relay` webhooks are
 omitted: a tool call is synchronous, so you get the envelope back inline.) The result is the
-full [`ScanEnvelope`](../../docs/SCAN_API.md) as JSON: `fields`, per-field `confidence`,
+full [`ScanEnvelope`](https://github.com/parserelay/core) as JSON: `fields`, per-field `confidence`,
 `needs_review`, `field_source`, and `meta` (engine, credits, tokens).
 
 Set `dry_run: true` to preview which fields would trigger a paid rescue — and the estimated
