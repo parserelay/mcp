@@ -1,0 +1,46 @@
+{
+  "name": "@parserelay/mcp",
+  "version": "0.0.1",
+  "description": "ParseRelay's scan API as an MCP tool (stdio + streamable-HTTP).",
+  "license": "MIT",
+  "homepage": "https://parserelay.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parserelay/mcp.git"
+  },
+  "bugs": { "url": "https://github.com/parserelay/mcp/issues" },
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "parserelay-mcp": "./dist/stdio.js"
+  },
+  "files": ["dist"],
+  "publishConfig": { "access": "public" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "node dist/stdio.js",
+    "start:http": "node dist/http.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@parserelay/client": "workspace:*",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^3.0.0"
+  }
+}
