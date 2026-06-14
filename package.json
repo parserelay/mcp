@@ -1,7 +1,8 @@
 {
   "name": "@parserelay/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ParseRelay's scan API as an MCP tool (stdio + streamable-HTTP).",
+  "mcpName": "io.github.parserelay/mcp",
   "license": "MIT",
   "homepage": "https://parserelay.app",
   "repository": {
