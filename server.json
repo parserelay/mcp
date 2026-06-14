@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "app.parserelay/mcp",
+  "name": "io.github.parserelay/mcp",
   "title": "ParseRelay",
   "description": "Parse a document into structured, confidence-scored fields. The `scan` tool: same contract as ParseRelay's REST API and component — bring your own model, pay per scan.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://parserelay.app",
   "repository": {
     "url": "https://github.com/parserelay/mcp",
@@ -14,7 +14,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "@parserelay/mcp",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "runtimeHint": "npx",
       "transport": { "type": "stdio" },
       "environmentVariables": [
