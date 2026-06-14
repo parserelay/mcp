@@ -3,7 +3,7 @@
   "name": "app.parserelay/mcp",
   "title": "ParseRelay",
   "description": "Parse a document into structured, confidence-scored fields. The `scan` tool: same contract as ParseRelay's REST API and component — bring your own model, pay per scan.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "websiteUrl": "https://parserelay.app",
   "repository": {
     "url": "https://github.com/parserelay/mcp",
@@ -14,7 +14,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "@parserelay/mcp",
-      "version": "0.0.1",
+      "version": "0.1.0",
       "runtimeHint": "npx",
       "transport": { "type": "stdio" },
       "environmentVariables": [
