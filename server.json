@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.parserelay/mcp",
   "title": "ParseRelay",
-  "description": "Parse a document into structured, confidence-scored fields. The `scan` tool: same contract as ParseRelay's REST API and component — bring your own model, pay per scan.",
+  "description": "Parse a document into structured, confidence-scored fields. Bring your own model, pay per scan.",
   "version": "0.1.1",
   "websiteUrl": "https://parserelay.app",
   "repository": {
